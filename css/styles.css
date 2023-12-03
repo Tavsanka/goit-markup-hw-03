@@ -45,9 +45,14 @@
 .nav-menu {
   list-style: none;
   display: flex;
+  gap: 40px;
 }
 .nav-margin-right {
   margin-right: 0;
+}
+
+.nav-margin-left {
+  margin-left: 332px;
 }
 
 .nav-menu-link {
@@ -56,7 +61,7 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0 auto;
+  margin-right: 40p;
   padding: 24px 0;
   text-decoration: none;
 }
