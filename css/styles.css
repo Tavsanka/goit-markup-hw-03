@@ -203,8 +203,8 @@ body {
   background-color: var(--color-white);
 }
 
-.photo-list {
-  margin-top: 72px;
+.section-tree {
+  padding-bottom: 120px;
 }
 
 .title-style {
@@ -214,6 +214,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navyblue);
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.photo-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .location {
