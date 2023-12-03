@@ -118,11 +118,7 @@
 
 .header-index-section {
   background-color: var(--color-navyblue);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  padding: 188px 0;
 }
 
 .header-index {
@@ -133,18 +129,7 @@
   letter-spacing: 0.02em;
   max-width: 496px;
   margin: 0 auto;
-  padding-top: 188px;
   padding-bottom: 48px;
-}
-
-.button-box {
-  background-color: var(--color-iris);
-  display: flex;
-  justify-content: center;
-  margin-top: 48px;
-  margin-bottom: 188px;
-  margin-right: 635px;
-  margin-left: 636px;
 }
 
 .button-header {
@@ -156,10 +141,12 @@
   letter-spacing: 0.04em;
   background-color: var(--color-iris);
   cursor: pointer;
-  padding-left: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 32px;
+  display: block;
+  justify-content: center;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button-header:hover {
