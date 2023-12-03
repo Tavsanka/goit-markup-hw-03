@@ -116,7 +116,7 @@
   color: var(--color-ocean);
 }
 
-.header-index-section {
+.section-container {
   background-color: var(--color-navyblue);
   padding: 188px 0;
 }
@@ -147,6 +147,7 @@
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 636px;
 }
 
 .button-header:hover {
@@ -163,7 +164,7 @@
   gap: 24px;
 }
 
-.section-container {
+.container {
   padding: 0 15px;
   margin: 0 auto;
   max-width: 1158px;
