@@ -45,10 +45,12 @@
 .nav-menu {
   list-style: none;
   display: flex;
-  gap: 40px;
+}
+.nav-margin-right {
+  margin-right: 0;
 }
 
-.nav-menu-item {
+.nav-menu-link {
   color: var(--color-navyblue);
   font-size: 16px;
   font-weight: 500;
@@ -56,24 +58,15 @@
   letter-spacing: 0.02em;
   margin: 0 auto;
   padding: 24px 0;
+  text-decoration: none;
 }
 
-.nav-menu-item:hover {
+.nav-menu-link:hover {
   color: var(--color-ocean);
 }
 
-.nav-menu-item:focus {
+.nav-menu-link:focus {
   color: var(--color-ocean);
-}
-
-.left-section {
-  display: flex;
-  align-items: center;
-}
-
-.right-section {
-  display: flex;
-  align-items: center;
 }
 
 .logo {
@@ -122,6 +115,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-right: 40px;
+  text-decoration: none;
 }
 
 .address-list:hover {
