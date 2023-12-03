@@ -21,13 +21,6 @@
   display: flex;
 }
 
-.container {
-  max-width: 1128px;
-  padding: 0 15px;
-  margin: 0 auto;
-  max-width: 1158px;
-}
-
 .nav {
   margin: 0 auto;
   display: flex;
@@ -125,7 +118,6 @@
 
 .header-index-section {
   background-color: var(--color-navyblue);
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,11 +131,10 @@
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
   margin: 0 auto;
   padding-top: 188px;
   padding-bottom: 48px;
-  padding-left: 472px;
-  padding-right: 472px;
 }
 
 .button-box {
@@ -185,11 +176,20 @@
   gap: 24px;
 }
 
+.section-container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1158px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .list-wrapper {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 body {
