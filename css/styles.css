@@ -309,6 +309,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navyblue);
+  margin-bottom: 8px;
 }
 
 .photo-list-type {
