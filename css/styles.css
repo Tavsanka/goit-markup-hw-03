@@ -311,6 +311,9 @@ body {
   color: var(--color-navyblue);
   margin-bottom: 8px;
 }
+.margin-bottom {
+  margin-bottom: 8px;
+}
 
 .photo-list-type {
   font-family: Roboto;
@@ -319,7 +322,6 @@ body {
   line-height: 1.5;
   color: var(--color-slate);
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 
 .section-portfolio {
