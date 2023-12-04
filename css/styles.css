@@ -30,19 +30,25 @@ img {
   display: block; max-width: 100%; height: auto;
 }
 
-.header-style {
+.header-container {
   border-bottom: 1px solid #e7e9fc;
   background-color: var(--color-white);
 }
 
-.header-container {
+.header-position {
   display: flex;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1158px;
 }
 
 .nav {
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -61,7 +67,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-right: 40p;
   padding: 24px 0;
   text-decoration: none;
 }
@@ -86,9 +91,6 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: flex;
-}
-
-.link {
   text-decoration: none;
 }
 
@@ -122,6 +124,7 @@ img {
   letter-spacing: 0.02em;
   margin-right: 40px;
   text-decoration: none;
+  gap: 40px;
 }
 
 .address-list:hover {
@@ -206,12 +209,6 @@ button:hover {
 button:focus {
   background: var(--color-ocean);
   color: var(--color-white);
-}
-
-.container {
-  padding: 0 15px;
-  margin: 0 auto;
-  max-width: 1158px;
 }
 
 .section {
