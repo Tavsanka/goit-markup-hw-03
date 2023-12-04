@@ -319,6 +319,7 @@ body {
   line-height: 1.5;
   color: var(--color-slate);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .section-portfolio {
@@ -336,6 +337,7 @@ body {
   column-gap: 24px;
   row-gap: 48px; 
   list-style: none;
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .list-style-portfolio {
