@@ -54,7 +54,6 @@ img {
 .nav-margin-right {
   margin-right: 0;
 }
-}
 
 .nav-menu-link {
   color: var(--color-navyblue);
@@ -86,6 +85,7 @@ img {
   margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: flex;
 }
 
 .link {
@@ -318,12 +318,20 @@ body {
 
 .footer-container {
   padding: 100px 0;
-}
-
-.page-footer {
   background: var(--color-navyblue);
 }
 
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-iris);
+  text-transform: uppercase;
+  padding-bottom: 16px;
+  display: inline-block;
+}
 .footer-highlight {
   color: var(--color-cloud);
 }
@@ -334,4 +342,5 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
