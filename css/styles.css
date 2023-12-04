@@ -333,14 +333,14 @@ body {
 .list {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc(33.33% - 20px);
+  
   column-gap: 24px;
   row-gap: 48px; 
   list-style: none;
 }
 
 .list-style-portfolio {
-  
+  flex-basis: calc((100% - 48px) / 3); 
 }
 
 .link-style {
@@ -348,6 +348,8 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  max-width: 100%;
+  height: auto;
 }
 
 .footer-container {
