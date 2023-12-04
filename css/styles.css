@@ -329,8 +329,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-iris);
   text-transform: uppercase;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   display: inline-block;
+  text-decoration: none;
 }
 .footer-highlight {
   color: var(--color-cloud);
