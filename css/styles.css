@@ -278,10 +278,7 @@ body {
 }
 
 .header-list-wrapper {
-  padding-top: 32px; 
-  padding-bottom: 32px; 
-  padding-left: 16px; 
-  padding-right: 16px;
+  padding: 32px 0px;
 }
 
 .name-list {
@@ -309,9 +306,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navyblue);
-  margin-bottom: 8px;
-}
-.margin-bottom {
   margin-bottom: 8px;
 }
 
@@ -350,7 +344,7 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+  
   max-width: 100%;
   height: auto;
 }
