@@ -123,7 +123,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-right: 40px;
   text-decoration: none;
   gap: 40px;
 }
@@ -189,6 +188,8 @@ button {
   margin: 0;
   padding-left: 0;
   justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .button-style {
@@ -200,16 +201,21 @@ button {
   color: var(--color-iris);
   background: var(--color-cloud);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+
 }
 
 button:hover {
   background: var(--color-ocean);
   color: var(--color-white);
+  border: 1px solid transparent;
 }
 
 button:focus {
   background: var(--color-ocean);
   color: var(--color-white);
+  border: 1px solid transparent;
 }
 
 .section {
@@ -312,6 +318,30 @@ body {
   line-height: 1.5;
   color: var(--color-slate);
   letter-spacing: 0.02em;
+}
+
+.section-portfolio {
+  padding-top: 96px; 
+  padding-bottom: 120px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px; 
+  list-style: none;
+}
+
+.list-style {
+  width: calc((100% - 48px) / 3); 
+}
+
+.link-style {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .footer-container {

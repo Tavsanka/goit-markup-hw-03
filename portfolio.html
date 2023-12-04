@@ -19,48 +19,45 @@
   </head>
 
   <body>
-    <header class="background header-style">
-      <div class="container">
+    <header class="header-container">
+      <div class="header-position container">
         <nav class="nav">
-          <div class="left-section">
-            <a href="./index.html" class="logo link">
-              Web<span class="studio-highlight">Studio</span></a
-            >
+          <a href="./index.html" class="logo">
+            Web<span class="studio-highlight">Studio</span></a
+          >
 
+          <ul class="nav-menu">
+            <li>
+              <a class="nav-menu-link" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="nav-menu-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-menu-link" href="">Contacts</a>
+            </li>
+          </ul>
+
+          <address>
             <ul class="nav-menu">
               <li>
-                <a class="nav-menu-item link" href="./index.html">Studio</a>
-              </li>
-              <li>
-                <a class="nav-menu-item link" href="./portfolio.html"
-                  >Portfolio</a
+                <a class="address-list" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
                 >
               </li>
-              <li><a class="nav-menu-item link" href="">Contacts</a></li>
+              <li class="nav-margin-right">
+                <a class="address-list" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
             </ul>
-          </div>
-          <div class="right-section">
-            <address>
-              <ul class="nav-menu">
-                <li>
-                  <a class="address-list link" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <li>
-                  <a class="address-list link" href="tel:+110001111111"
-                    >+11 (000) 111-11-11</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
+          </address>
         </nav>
       </div>
     </header>
 
     <main class="background">
-      <section>
+      <section class="section-portfolio">
         <div class="container">
           <h2 class="visually-hidden">...</h2>
           <ul class="nav-button">
@@ -76,32 +73,37 @@
           </ul>
 
           <ul class="list">
-            <li>
-              <a class="link">
-                <img
-                  src="./images/bank_app.jpg"
-                  width="360"
-                  height="300"
-                  alt="Bank aplications"
-                />
+            <li class="list-style">
+              <a>
+                <div class="link-style">
+                  <img
+                    src="./images/bank_app.jpg"
+                    width="360"
+                    height="300"
+                    alt="Bank aplications"
+                  />
 
-                <h3 class="photo-list-name">Banking App Interface Concept</h3>
-                <p class="photo-list-type">App</p>
+                  <h3 class="photo-list-name">Banking App Interface Concept</h3>
+                  <p class="photo-list-type">App</p>
+                </div>
               </a>
             </li>
             <li>
               <a class="link">
-                <img
-                  src="./images/telefon.jpg"
-                  width="360"
-                  height="300"
-                  alt="Payment by mobilephone"
-                />
-                <h3 class="photo-list-name">Cashless Payment</h3>
-                <p class="photo-list-type">Marketing</p>
+                <div class="link-style">
+                  <img
+                    src="./images/telefon.jpg"
+                    width="360"
+                    height="300"
+                    alt="Payment by mobilephone"
+                  />
+                  <h3 class="photo-list-name">Cashless Payment</h3>
+                  <p class="photo-list-type">Marketing</p>
+                </div>
               </a>
             </li>
             <li>
+              <div class="link-style">
               <a class="link">
                 <img
                   src="./images/laptop.jpg"
@@ -112,10 +114,12 @@
                 />
                 <h3 class="photo-list-name">Meditation App</h3>
                 <p class="photo-list-type">App</p>
+              </div>
               </a>
             </li>
             <li>
               <a class="link">
+                <div class="link-style">
                 <img
                   src="./images/taxi.jpg"
                   width="360"
@@ -124,6 +128,7 @@
                 />
                 <h3 class="photo-list-name">Taxi Service</h3>
                 <p class="photo-list-type">Marketing</p>
+                </div>
               </a>
             </li>
             <li>
