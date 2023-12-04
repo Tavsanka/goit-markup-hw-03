@@ -37,7 +37,7 @@ img {
 
 .header-position {
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
 }
 
@@ -58,6 +58,7 @@ img {
   list-style: none;
   display: flex;
   gap: 40px;
+  margin-right: 332px;
 }
 
 .nav-menu-link {
@@ -118,7 +119,6 @@ img {
   display: flex;
   gap: 40px;
   list-style: none;
-  margin-left: auto;
 }
 
 .contact-link {
@@ -129,10 +129,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-}
-
-address {
-  margin-right: 0px; 
 }
 
 .contact-link:hover {
