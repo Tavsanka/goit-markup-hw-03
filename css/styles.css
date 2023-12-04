@@ -26,6 +26,10 @@
   overflow: hidden;
 }
 
+img {
+  display: block; max-width: 100%; height: auto;
+}
+
 .header-style {
   border-bottom: 1px solid #e7e9fc;
   background-color: var(--color-white);
@@ -50,9 +54,6 @@
 .nav-margin-right {
   margin-right: 0;
 }
-
-.nav-margin-left {
-  margin-left: 332px;
 }
 
 .nav-menu-link {
