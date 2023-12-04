@@ -226,9 +226,6 @@ button:focus {
   display: flex;
   list-style: none;
   gap: 24px;
-}
-
-.list-item {
   flex-basis: calc((100% - 72px) / 4));
 }
 
